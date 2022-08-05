@@ -4168,7 +4168,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_LeaderGiovanni[] = {
     {
         .iv = 0,
         .lvl = 50,
-        .species = SPECIES_RHYHORN,
+        .species = SPECIES_RHYDON,
         .moves = {MOVE_TAKE_DOWN, MOVE_ROCK_BLAST, MOVE_SCARY_FACE, MOVE_EARTHQUAKE},
     },
 };
@@ -5597,19 +5597,25 @@ static const struct TrainerMonItemCustomMoves sParty_EliteFourLance[] = {
         .lvl = 60,
         .species = SPECIES_DRAGONITE,
         .heldItem = ITEM_SITRUS_BERRY,
-        .moves = {MOVE_HYPER_BEAM, MOVE_SAFEGUARD, MOVE_OUTRAGE, MOVE_WING_ATTACK},
+        .moves = {MOVE_HYPER_BEAM, MOVE_BARRIER, MOVE_OUTRAGE, MOVE_WING_ATTACK},
     },
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_LeaderBrock[] = {
     {
-        .iv = 0,
+        .iv = 25,
         .lvl = 12,
         .species = SPECIES_GEODUDE,
-        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_ROCK_TOMB, MOVE_NONE},
     },
+	{
+		.iv = 25,
+		.lvl = 13,
+		.species = SPECIES_DIGLETT,
+		.moves = {MOVE_SCRATCH, MOVE_SAND_ATTACK, MOVE_GROWL, MOVE_MAGNITUDE},
+	},
     {
-        .iv = 0,
+        .iv = 25,
         .lvl = 14,
         .species = SPECIES_ONIX,
         .moves = {MOVE_TACKLE, MOVE_BIND, MOVE_ROCK_TOMB, MOVE_NONE},
